@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Password Generator</title>
+  <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+  <main>
+    <h1 class="title">Passord Generator</h1>
+    <section class="section">
+      <h2 class="section__title">Generate a <span class="accent">random password</span></h2>
+      <p class="section__info">Never use an insecure password again.</p>
+
+      <div class="input-wrap">
+        <label for="char-length">Password length</label>
+        <input type="number" id="char-length" autofocus>
+      </div>
+      <p id="hint" class="hide">The password must be between 6 - 15 digits long.</p>
+
+      <div class="btn-wrap">
+        <button class="btn" id="generate-btn">Generate passwords</button>
+        <button class="btn" id="new-btn" disabled>New passwords</button>
+      </div>
+      <hr>
+      <div class="results">
+        <div class="results__pass" id="password-one"></div>
+        <div class="results__pass" id="password-two"></div>
+      </div>
+    </section>
+  </main>
+  <footer class="attribution">
+    <small>Frontend Career Path by <a href="https://scrimba.com/" class="attribution__cta" target="_blank" rel="noreferrer">Scrimba</a> - Coded by <a href="https://github.com/mendez-v/password-generator" class="attribution__cta" target="_blank" rel="noreferrer">VIMP</a> 💜</small>
+  </footer>
+
+  <script src="./main.js"></script>
+</body>
+</html>
