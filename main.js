@@ -39,8 +39,8 @@ function check() {
 
 function renderError() {
   hint.classList.remove("hide")
-  generateBtn.setAttribute("disabled", "")
-  newBtn.removeAttribute("disabled")
+  charLength.focus()
+  charLength.setAttribute("disabled", "")
 }
 
 function renderPassword() {
@@ -49,14 +49,15 @@ function renderPassword() {
   passwordOne.textContent = password1
   passwordTwo.textContent = password2
   
-  newBtn.removeAttribute("disabled")
   generateBtn.setAttribute("disabled", "")
+  newBtn.removeAttribute("disabled")
 }
 
 function newPassword() {
   charLength.value = ""
   passwordOne.textContent = ""
   passwordTwo.textContent = ""
+  charLength.removeAttribute("disabled")
   charLength.focus()
 
   if (hint.classList.contains("hide")) {
