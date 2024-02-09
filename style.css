@@ -101,14 +101,15 @@ body {
   block-size: 3rem;
   display: grid;
   place-items: center;
-  font-size: .98rem;
+  font-size: 1.1rem;
   font-weight: 700;
 }
 .btn {
+  font-family: inherit;
   background-color: var(--clr-4);
-  color: var(--clr-1);
   border: none;
   border-radius: .5rem;
+  color: var(--clr-1);
   transition: transform .3s ease;
 }
 .line {
