@@ -22,7 +22,7 @@ This is my solution to the Solo project: Password Generator of the course [Front
 
 🎯 Ability to set password length
 
-🎯 Each password must have a minimum of 15 characters long
+🎯 Each password must have a minimum of 6 characters and a maximum of 15 characters
 
 ## *Screenshots*
 
